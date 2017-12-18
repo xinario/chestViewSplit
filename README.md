@@ -19,7 +19,7 @@ Sometimes when you download the chest x-rays from the internet, there's no  text
 git clone https://github.com/xinario/chestViewSplit.git
 cd chestViewSplit
 ```
-- Download the trained model from [this link](https://drive.google.com/file/d/1vXhPWE-J4_eFY-UQ7A8pf3XdWhHO_lz_/view?usp=sharing) and put it into folder ./models
+- Download the trained model from [this link](https://drive.google.com/file/d/1vXhPWE-J4_eFY-UQ7A8pf3XdWhHO_lz_/view?usp=sharing) and put it into folder ./models (mkdir ./models)
 
 ### Classification
 - Make sure all your chest x-rays resides in the same folder, e.g. ./chest_xray and then run the following command (-i specifies the input folder and -o specifies the output folder).
